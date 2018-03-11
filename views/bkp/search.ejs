@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <% include partials/head %>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hdr">
+                <div class="srch-box">
+                    <div class="srch-inp">
+                        <input type="text" id="srch-text" name="q" placeholder="search your travel..." value="<%= searchString.q %>" />
+                    </div>
+                </div>
+            </div>
+            <div class="con">
+                <div class="result-wrapper">
+                    <% for(var i = 0; i < data.length; i++ ) { %>
+                    <div class="item-box" data-ddata=<%= JSON.stringify(data[i]) %> >
+                        <div class="item-box-hdr">
+                            <%= data[i].title %>
+                        </div>
+                        <div class="item-box-con">
+                            <%= data[i].description %>
+                        </div>
+                    </div>
+                    <% } %>
+                </div>
+                <div class="details">
+                    <div class="details-hdr">
+                        <div class="title">
+                            Title
+                        </div>
+                        <div class="close">
+                            <span class="">X</span>
+                        </div>
+                    </div>
+                    <div class="details-con">
+                        Detailed Content of selected item
+                    </div>
+                    <div class="details-act" style="text-align: right;">
+                        <div class="">
+                            <span class="">Action-1</span>
+                            <!--
+                            <button class="btn btn-primary" style="min-width: 100px; border-radius: 2px;">Book</button>
+                            -->
+                        </div>
+                        <div class="">
+                            <span class="">Action-2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ftr">
+                &nbsp;&nbsp;&copy; QWERTY
+            </div>
+            <% include partials/footer %>
+        </div>
+        <% include partials/common_scripts %>
+        <script src="/js/jquery.min.js"></script>
+        <script>
+            var searchData = <%- JSON.stringify(data) %>;
+            $(function() {
+                $('.item-box').click(function(e) {
+                    var d = searchData[$(this).index()];
+                    $('.details')
+                    .find('.details-hdr .title').text(d.title)
+                    .closest('.details')
+                    .find('.details-con').text(d.description)
+                    .closest('.details')
+                    .show();   
+                });
+                $('.details .close').click(function(e) {
+                    $(this).closest('.details').hide();    
+                });
+
+                $('body').keydown(function(e) {
+                    var details = $('.details');
+                    if (details.css('display') != 'none' && e.keyCode == 27) {
+                        details.hide();
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

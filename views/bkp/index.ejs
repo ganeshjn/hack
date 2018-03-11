@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+    <% include partials/head %>
+    </head>
+    <body>
+        <div class="container">
+            <div class="con">
+                <div class="srch-box">
+                    <form id="srch-form" method="GET" action="/search" onsubmit="return q.value != ''" style="overflow: visible;">
+                    <div class="srch-inp">
+                        <input type="text" id="srch-text" name="q" placeholder="search your travel..." autocomplete="off"/>
+                        <input type="hidden" name="lt" />
+                        <input type="hidden" name="lg" />
+                    </div>
+                    <!--
+                    <div class="srch-btn">
+                        <button class="btn tn-primary">Search</button>
+                    </div>
+                    -->
+                    </form>
+                </div>
+            </div>
+            <% include partials/footer %>
+        </div>
+        <% include partials/common_scripts %>
+        <script>
+            $(function() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(
+                        function(p) {
+                            $('input[name=lt]').val(p.coords.latitude);
+                            $('input[name=lg]').val(p.coords.longitude);
+                        },
+                        function(err) {
+                            $('input[name=lt]').val(0);
+                            $('input[name=lg]').val(0);
+                        }
+                   );     
+                } else {
+                   $('input[name=lt]').val(0);
+                   $('input[name=lg]').val(0);
+                }
+                $('#srch-text').focus();
+            });
+        </script>
+    </body>
+</html>

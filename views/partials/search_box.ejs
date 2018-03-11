@@ -1,0 +1,17 @@
+            <div class="sub-sec">
+                <div class="search-box">
+                    <div class="search-input">
+                        <% if (typeof searchString == 'object' && searchString) { %>
+                            <input type="text" name="text-to-search" placeholder="search you travel..." value="<%= searchString.q %>"/>
+                        <% } else { %>
+                            <input type="text" name="text-to-search" placeholder="search you travel..." value=""/>
+                        <% } %>
+                    </div>
+                    <div class="search-speech">
+                        <span class="icon-mic"></span>
+                    </div>
+                    <div class="search-btn">
+                        <span class="icon-search"></span>
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,2142 @@
+{
+  "Marketers": {
+    "Marketer": [
+      {
+        "Code": "ACCNIFOS",
+        "Name": "ACC-NIFOS",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "CHRIS123",
+              "Name": "chris hewitt's chain"
+            },
+            {
+              "Code": "IF",
+              "Name": "Acc-Nifos Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "ACCOR",
+        "Name": "Accor Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "PU",
+              "Name": "Pullman Hotels"
+            },
+            {
+              "Code": "RT",
+              "Name": "Accor Hotels"
+            },
+            {
+              "Code": "SB",
+              "Name": "Sofitel"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "ALESIA",
+        "Name": "Alesia Distribution",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "OK",
+              "Name": "Alesia Distribution"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "ATEL",
+        "Name": "Atel Hotels Network",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AC",
+              "Name": "Atel Hotels Network"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "AU",
+        "Name": "TESTING DESC OF AU",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "KQ",
+              "Name": "Ken Automation"
+            },
+            {
+              "Code": "TCT02",
+              "Name": "TEST CHAIN 02"
+            },
+            {
+              "Code": "TST01",
+              "Name": "Test chain 01"
+            },
+            {
+              "Code": "TSTAU1",
+              "Name": "TESTING AUTOMATION"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "AUTSTMKT",
+        "Name": "Test Marketer 01",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "JG",
+              "Name": "test"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "BESTWEST",
+        "Name": "Best Western",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "BW",
+              "Name": "Best Western Intl"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "CARLSON",
+        "Name": "Carlson Hospitality Worldwide",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "CTC01",
+              "Name": "Char Test Chain1"
+            },
+            {
+              "Code": "CX",
+              "Name": "Country Inns By Carlson"
+            },
+            {
+              "Code": "PD",
+              "Name": "Park Inn"
+            },
+            {
+              "Code": "PK",
+              "Name": "Park Plaza Hotels And Resorts"
+            },
+            {
+              "Code": "QC",
+              "Name": "Quorvus Collection"
+            },
+            {
+              "Code": "RD",
+              "Name": "Radisson Hotels And Resorts"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "CHOICE",
+        "Name": "Choice International",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "CC",
+              "Name": "Clarion Hotels"
+            },
+            {
+              "Code": "CI",
+              "Name": "Comfort Inn"
+            },
+            {
+              "Code": "CZ",
+              "Name": "Comfort Suites"
+            },
+            {
+              "Code": "EO",
+              "Name": "Econo Lodge"
+            },
+            {
+              "Code": "EZ",
+              "Name": "Cambria Suites"
+            },
+            {
+              "Code": "MZ",
+              "Name": "Mainstay Suites"
+            },
+            {
+              "Code": "NZ",
+              "Name": "Ascend Collection"
+            },
+            {
+              "Code": "QI",
+              "Name": "Quality Inns And Suites"
+            },
+            {
+              "Code": "RI",
+              "Name": "Rodeway Inn"
+            },
+            {
+              "Code": "SZ",
+              "Name": "Sleep Inn"
+            },
+            {
+              "Code": "UB",
+              "Name": "Suburban Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "CMNET",
+        "Name": "CMNet",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "BZ",
+              "Name": "C M Net Hotels"
+            },
+            {
+              "Code": "CT",
+              "Name": "Cmnet"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "COAST",
+        "Name": "Coast Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "WX",
+              "Name": "Coast Hotels/Resorts"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "CTYLDG",
+        "Name": "City Lodge Hotel Group",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "CG",
+              "Name": "City Lodge Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "CUSOFFER",
+        "Name": "Custom Offers",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "KK",
+              "Name": "CSTMOFFR"
+            },
+            {
+              "Code": "XX",
+              "Name": "CO Chain XX"
+            },
+            {
+              "Code": "ZS",
+              "Name": "CUSOFFERS"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "DE01",
+        "Name": "DEMO MODY MARKETER",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "DE01",
+              "Name": "Demo Chain"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "EDS",
+        "Name": "E.D.S.",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "ED",
+              "Name": "E.D.S."
+            }
+          ]
+        }
+      },
+      {
+        "Code": "EXPEDIA",
+        "Name": "Expedia Affiliate Network",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "EN",
+              "Name": "Expedia Affiliate Network"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "FAIRMONT",
+        "Name": "Fairmont",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "FA",
+              "Name": "Fairmont Hotels and Resorts"
+            },
+            {
+              "Code": "SL",
+              "Name": "Swissotel Hotels and Resorts"
+            },
+            {
+              "Code": "YR",
+              "Name": "Raffles Hotels and Resorts"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "FASTBKG",
+        "Name": "FastBooking",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "FG",
+              "Name": "FastBooking"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "FOURSEAS",
+        "Name": "Four Seasons",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "FS",
+              "Name": "Four Seasons Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "FU",
+        "Name": "TESTING DESC OF FU",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "EDITEST",
+              "Name": "TEST EDIFACT DC DEST CHANGE"
+            },
+            {
+              "Code": "FU",
+              "Name": "QTP AUTOMATION OF FU"
+            },
+            {
+              "Code": "FUCHN",
+              "Name": "FU Do not Change"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "GREATHTL",
+        "Name": "Great Hotels of the World",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "GW",
+              "Name": "Great Hotels Of The World"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "GRUPOPOS",
+        "Name": "Grupo Posadas",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "FH",
+              "Name": "Fiesta Americana"
+            },
+            {
+              "Code": "YP",
+              "Name": "Gamma Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "GSIXHOSP",
+        "Name": "G6 Hospitality LLC",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "MX",
+              "Name": "Motel 6"
+            },
+            {
+              "Code": "SS",
+              "Name": "Studio 6"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "HETRAS",
+        "Name": "Hetras",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "RM",
+              "Name": "Hetras"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "HILTONUS",
+        "Name": "Hilton",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "CN",
+              "Name": "Conrad Hotels and Resorts"
+            },
+            {
+              "Code": "DT",
+              "Name": "Doubletree Hotels"
+            },
+            {
+              "Code": "ES",
+              "Name": "Embassy Suites"
+            },
+            {
+              "Code": "GI",
+              "Name": "Hilton Garden Inn"
+            },
+            {
+              "Code": "HG",
+              "Name": "Homewood Suites By Hilton"
+            },
+            {
+              "Code": "HH",
+              "Name": "Hilton Hotels"
+            },
+            {
+              "Code": "HL",
+              "Name": "HiltonHotels"
+            },
+            {
+              "Code": "HT",
+              "Name": "Home2Suites"
+            },
+            {
+              "Code": "HX",
+              "Name": "Hampton Inn"
+            },
+            {
+              "Code": "PY",
+              "Name": "Canopy by Hilton"
+            },
+            {
+              "Code": "QQ",
+              "Name": "Curio Collection"
+            },
+            {
+              "Code": "WA",
+              "Name": "Waldorf Astoria Htls and Rsrts"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "HRS",
+        "Name": "HRS",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "HQ",
+              "Name": "HRS"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "HTI",
+        "Name": "HTI",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "RH",
+              "Name": "ResHub"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "HYATT",
+        "Name": "Hyatt",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "HU",
+              "Name": "Hyatt Vacations"
+            },
+            {
+              "Code": "HY",
+              "Name": "Hyatt Hotels And Resorts"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "IHOTELRS",
+        "Name": "TravelCLICK",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AI",
+              "Name": "Armani Hotels"
+            },
+            {
+              "Code": "AT",
+              "Name": "The Address Hotels"
+            },
+            {
+              "Code": "BE",
+              "Name": "Benchmark"
+            },
+            {
+              "Code": "CA",
+              "Name": "Ilunion Hotels"
+            },
+            {
+              "Code": "DJ",
+              "Name": "Divan Hotels"
+            },
+            {
+              "Code": "DM",
+              "Name": "Domina Hotels"
+            },
+            {
+              "Code": "GF",
+              "Name": "Glbl Hsp Servs"
+            },
+            {
+              "Code": "GH",
+              "Name": "Grand Heritage"
+            },
+            {
+              "Code": "GQ",
+              "Name": "Genre Hotels"
+            },
+            {
+              "Code": "KH",
+              "Name": "K Hotels"
+            },
+            {
+              "Code": "LJ",
+              "Name": "The Lalit"
+            },
+            {
+              "Code": "LM",
+              "Name": "Vantis Hotel Group"
+            },
+            {
+              "Code": "MP",
+              "Name": "Mantra Group"
+            },
+            {
+              "Code": "OH",
+              "Name": "Oaks Hotels"
+            },
+            {
+              "Code": "PQ",
+              "Name": "Purple Hotels"
+            },
+            {
+              "Code": "QG",
+              "Name": "Quest"
+            },
+            {
+              "Code": "VE",
+              "Name": "Vantis Hotels"
+            },
+            {
+              "Code": "WO",
+              "Name": "Wyndham Extra Holiday"
+            },
+            {
+              "Code": "WV",
+              "Name": "TravelCLICK"
+            },
+            {
+              "Code": "XO",
+              "Name": "Luxury Resorts"
+            },
+            {
+              "Code": "ZA",
+              "Name": "Hotel ZaZa"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "INNLINK",
+        "Name": "InnLink",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "IV",
+              "Name": "Innvite"
+            },
+            {
+              "Code": "SM",
+              "Name": "Innlink"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "INTERCON",
+        "Name": "Intercontinental",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AN",
+              "Name": "A N A Hotels"
+            },
+            {
+              "Code": "CP",
+              "Name": "Crowne Plaza Hotels"
+            },
+            {
+              "Code": "HI",
+              "Name": "Holiday Inn"
+            },
+            {
+              "Code": "IC",
+              "Name": "Intercontinental Hotels"
+            },
+            {
+              "Code": "IN",
+              "Name": "Hotel Indigo"
+            },
+            {
+              "Code": "MA",
+              "Name": "Army Hotels"
+            },
+            {
+              "Code": "SP",
+              "Name": "Special Properties"
+            },
+            {
+              "Code": "UL",
+              "Name": "Hualuxe Hotels and Resorts"
+            },
+            {
+              "Code": "VN",
+              "Name": "EVEN HOTELS"
+            },
+            {
+              "Code": "YO",
+              "Name": "Candlewood Suites"
+            },
+            {
+              "Code": "YZ",
+              "Name": "Staybridge Suites"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "KEYTEL",
+        "Name": "Keytel",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "HA",
+              "Name": "Hotusa"
+            },
+            {
+              "Code": "KY",
+              "Name": "Keytel"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "LANYON",
+        "Name": "Lanyon",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "LL",
+              "Name": "Unknown -- Ll"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "LAQUINTA",
+        "Name": "La Quinta",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "LQ",
+              "Name": "La Quinta Inns Inc"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "LEADING",
+        "Name": "Leading Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "LW",
+              "Name": "Leading Hotels Of The World"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "LEISLINK",
+        "Name": "LeisureLink",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "LI",
+              "Name": "Leisurelink"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "LOEWS",
+        "Name": "Loews Hotels Inc.",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "LZ",
+              "Name": "Loews Hotels"
+            },
+            {
+              "Code": "UE",
+              "Name": "Universal Hotels Orlando"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "LOUVRE",
+        "Name": "Louvre Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "GT",
+              "Name": "Golden Tulip Hotels"
+            },
+            {
+              "Code": "NN",
+              "Name": "Louvre Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "MAGNUSON",
+        "Name": "Magnuson Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "MS",
+              "Name": "Magnuson Hotels"
+            },
+            {
+              "Code": "PW",
+              "Name": "Whiteboard Labs"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "MARITIM",
+        "Name": "Maritim",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "MM",
+              "Name": "Maritim Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "MARRIOTT",
+        "Name": "Marriott International",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AK",
+              "Name": "Autograph Collect"
+            },
+            {
+              "Code": "AR",
+              "Name": "AC Hotels"
+            },
+            {
+              "Code": "BG",
+              "Name": "Bulgari Hotels And Resorts"
+            },
+            {
+              "Code": "BR",
+              "Name": "Renaissance Hotels"
+            },
+            {
+              "Code": "CY",
+              "Name": "Courtyard By Marriott"
+            },
+            {
+              "Code": "DE",
+              "Name": "Delta Hotels"
+            },
+            {
+              "Code": "EB",
+              "Name": "Edition"
+            },
+            {
+              "Code": "EE",
+              "Name": "Marriott ExecuStay"
+            },
+            {
+              "Code": "ET",
+              "Name": "Marriott Conference Center"
+            },
+            {
+              "Code": "FN",
+              "Name": "Fairfield Inn"
+            },
+            {
+              "Code": "GE",
+              "Name": "Gaylord Entertainment"
+            },
+            {
+              "Code": "MC",
+              "Name": "Marriott Hotels"
+            },
+            {
+              "Code": "OX",
+              "Name": "Moxy Hotels"
+            },
+            {
+              "Code": "PR",
+              "Name": "Protea Hotels"
+            },
+            {
+              "Code": "RC",
+              "Name": "Residence Inn"
+            },
+            {
+              "Code": "RZ",
+              "Name": "Ritz Carlton Hotels"
+            },
+            {
+              "Code": "TO",
+              "Name": "Towneplace Suites"
+            },
+            {
+              "Code": "VC",
+              "Name": "Marriott Vacation Club"
+            },
+            {
+              "Code": "XV",
+              "Name": "Springhill Suites"
+            },
+            {
+              "Code": "ZX",
+              "Name": "MI Independent Property"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "MGMOPS",
+        "Name": "MGM Resorts International",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "MV",
+              "Name": "MGM Resorts International"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "MICROS",
+        "Name": "MICROS",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "BA",
+              "Name": "Boscolo Hotels"
+            },
+            {
+              "Code": "BY",
+              "Name": "Banyan Tree Hotels and Resorts"
+            },
+            {
+              "Code": "GA",
+              "Name": "Global Hotel Alliance"
+            },
+            {
+              "Code": "GB",
+              "Name": "Macdonald Hotels Group"
+            },
+            {
+              "Code": "IQ",
+              "Name": "MyFidelio"
+            },
+            {
+              "Code": "JD",
+              "Name": "The Doyle Collection"
+            },
+            {
+              "Code": "KI",
+              "Name": "Kempinski Hotels"
+            },
+            {
+              "Code": "LG",
+              "Name": "Lindner Hotels"
+            },
+            {
+              "Code": "LR",
+              "Name": "Leela Hotels"
+            },
+            {
+              "Code": "MH",
+              "Name": "Marco Polo Hotels"
+            },
+            {
+              "Code": "PF",
+              "Name": "Pan Pacific Hotels"
+            },
+            {
+              "Code": "PL",
+              "Name": "ParkRoyal Hotels"
+            },
+            {
+              "Code": "QT",
+              "Name": "QT"
+            },
+            {
+              "Code": "RG",
+              "Name": "Rydges Hotel Group"
+            },
+            {
+              "Code": "SD",
+              "Name": "SilverneeDle"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "MILLCOP",
+        "Name": "Millennium & Copthorne",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "MU",
+              "Name": "Millennium/Copthorne Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "MKTQA",
+        "Name": "TestMKT Do not Change",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "TSTCHN",
+              "Name": "Test Chain Do not Change"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "NHHOTELS",
+        "Name": "NH Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "JH",
+              "Name": "Jolly Hotels"
+            },
+            {
+              "Code": "NS",
+              "Name": "N H Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "NIKKO",
+        "Name": "Nikko Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "NK",
+              "Name": "Nikko Hotels International / Hotel JAL"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "OMNI",
+        "Name": "Omni Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AV",
+              "Name": "Allegiance Hosp"
+            },
+            {
+              "Code": "OM",
+              "Name": "Omni Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "OMNIBEES",
+        "Name": "Omnibees Hotel Distribution Marketing",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "HB",
+              "Name": "Omnibees"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "OTEDIS",
+        "Name": "Otedis",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "OI",
+              "Name": "Amadeus Linkhotel"
+            },
+            {
+              "Code": "ST",
+              "Name": "Seneca Hotels"
+            },
+            {
+              "Code": "ZW",
+              "Name": "CWT PVT CONTENT"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "OUTRIGER",
+        "Name": "Outrigger",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "OR",
+              "Name": "Outrigger Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "PEGASUS",
+        "Name": "Pegasus Solutions",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "CM",
+              "Name": "Hotel Camino Real"
+            },
+            {
+              "Code": "DR",
+              "Name": "Drury Inns Inc"
+            },
+            {
+              "Code": "EA",
+              "Name": "Extended Stay America"
+            },
+            {
+              "Code": "LU",
+              "Name": "Luxury Hotels Grp"
+            },
+            {
+              "Code": "OE",
+              "Name": "Belmond"
+            },
+            {
+              "Code": "QM",
+              "Name": "Queens Moat Houses"
+            },
+            {
+              "Code": "SE",
+              "Name": "Sercotel Hotels"
+            },
+            {
+              "Code": "TP",
+              "Name": "Top International"
+            },
+            {
+              "Code": "UI",
+              "Name": "PEGASUS CONNECT PLUS"
+            },
+            {
+              "Code": "UZ",
+              "Name": "Pegasus Connect"
+            },
+            {
+              "Code": "VY",
+              "Name": "Maybourne Hotel Group"
+            },
+            {
+              "Code": "WD",
+              "Name": "Chase Suite Hotels"
+            },
+            {
+              "Code": "XW",
+              "Name": "Webres"
+            },
+            {
+              "Code": "ZZ",
+              "Name": "PEGASUS TEST"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "PHG",
+        "Name": "Preferred Hotel Group",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "BC",
+              "Name": "Preferred Hotels Affiliate Htl"
+            },
+            {
+              "Code": "HE",
+              "Name": "Historic Hotels"
+            },
+            {
+              "Code": "MN",
+              "Name": "Montage Hotels"
+            },
+            {
+              "Code": "NO",
+              "Name": "New Otani Hotels"
+            },
+            {
+              "Code": "PH",
+              "Name": "Preferred Hotels And Resorts"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "QUALITY",
+        "Name": "Quality Res",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "QR",
+              "Name": "Quality Reservations"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "RADEK",
+        "Name": "IM TEST",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "II",
+              "Name": "IM Test Chain"
+            },
+            {
+              "Code": "VV",
+              "Name": "radek 23"
+            },
+            {
+              "Code": "YY",
+              "Name": "Radek 2"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "RECONLIN",
+        "Name": "Reconline",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "IH",
+              "Name": "Classic International Hotels"
+            },
+            {
+              "Code": "ON",
+              "Name": "Reconline"
+            },
+            {
+              "Code": "QO",
+              "Name": "Swiss Quality"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "REDROOF",
+        "Name": "Red Roof Inns",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "RF",
+              "Name": "Red Roof Inns"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "RESERV",
+        "Name": "ReservHotel",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "RB",
+              "Name": "Resort Bookings"
+            },
+            {
+              "Code": "TA",
+              "Name": "Reservhotel International"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "REZLINK",
+        "Name": "RezLink",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "RK",
+              "Name": "Rezlink Intl"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "SCANDIC",
+        "Name": "Scandic Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "SH",
+              "Name": "Scandic Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "SCEPTRE",
+        "Name": "Sceptre Hospitality Resources",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "SC",
+              "Name": "Sceptre Hospitality Resources"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "SECMKT",
+        "Name": "SECOND FOR TestQA",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "CHNQA",
+              "Name": "Test CHN Do not Change"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "SHILOINN",
+        "Name": "Shilo Inns",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "BP",
+              "Name": "Shilo Inns"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "SOLMELIA",
+        "Name": "Sol Melia",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "ME",
+              "Name": "Melia Hotels Intl"
+            },
+            {
+              "Code": "TY",
+              "Name": "Idiso Hotel Distribution"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "SOUTHERN",
+        "Name": "Southern Sun Hotels",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "SU",
+              "Name": "Southern Sun Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "STARWOOD",
+        "Name": "Starwood Hotels And  Resorts Worldwide",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AL",
+              "Name": "Aloft Hotels"
+            },
+            {
+              "Code": "EL",
+              "Name": "Element Hotels"
+            },
+            {
+              "Code": "GX",
+              "Name": "Global Conextions"
+            },
+            {
+              "Code": "LC",
+              "Name": "Luxury Collection"
+            },
+            {
+              "Code": "MD",
+              "Name": "Le Meridien"
+            },
+            {
+              "Code": "SI",
+              "Name": "Sheraton Hotels"
+            },
+            {
+              "Code": "TX",
+              "Name": "Tribute Portfolio"
+            },
+            {
+              "Code": "WH",
+              "Name": "W Hotels"
+            },
+            {
+              "Code": "WI",
+              "Name": "Westin Hotels And Resorts"
+            },
+            {
+              "Code": "XR",
+              "Name": "The St Regis"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "SUPRANTL",
+        "Name": "Supranational",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "BX",
+              "Name": "Columbus Reservation Service"
+            },
+            {
+              "Code": "SX",
+              "Name": "Supranational Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "SYNXIS",
+        "Name": "SynXis",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AH",
+              "Name": "Aston Hotels and Resorts"
+            },
+            {
+              "Code": "AO",
+              "Name": "Atlantis"
+            },
+            {
+              "Code": "AP",
+              "Name": "Andre Balazs Hotels"
+            },
+            {
+              "Code": "AU",
+              "Name": "Auberge Resorts"
+            },
+            {
+              "Code": "AZ",
+              "Name": "The Ascott Ltd"
+            },
+            {
+              "Code": "BI",
+              "Name": "Baccarat and 1 Hotels"
+            },
+            {
+              "Code": "BK",
+              "Name": "Interstate Htls/Rsrts"
+            },
+            {
+              "Code": "BT",
+              "Name": "Business Travel Advantage"
+            },
+            {
+              "Code": "CQ",
+              "Name": "Club Quarters"
+            },
+            {
+              "Code": "CV",
+              "Name": "Como Hotels and Resorts"
+            },
+            {
+              "Code": "DC",
+              "Name": "Dorchester Collection"
+            },
+            {
+              "Code": "DN",
+              "Name": "Destination Hotels and Resorts"
+            },
+            {
+              "Code": "DS",
+              "Name": "Design Hotels"
+            },
+            {
+              "Code": "DW",
+              "Name": "Dusit Hotels and Resorts"
+            },
+            {
+              "Code": "DX",
+              "Name": "Dolce Hotels and Resorts"
+            },
+            {
+              "Code": "DZ",
+              "Name": "Dream Hotels"
+            },
+            {
+              "Code": "EI",
+              "Name": "Executive Hotels And Resorts"
+            },
+            {
+              "Code": "EP",
+              "Name": "Epoque Hotels"
+            },
+            {
+              "Code": "EQ",
+              "Name": "Eaton Hotels"
+            },
+            {
+              "Code": "ER",
+              "Name": "Hampshire Hotels"
+            },
+            {
+              "Code": "EU",
+              "Name": "Chateaux and Hotels Collection"
+            },
+            {
+              "Code": "FB",
+              "Name": "Fontainebleau Resorts"
+            },
+            {
+              "Code": "FC",
+              "Name": "Rocco Forte Htls"
+            },
+            {
+              "Code": "FF",
+              "Name": "Chic Collection"
+            },
+            {
+              "Code": "FI",
+              "Name": "Frasers Hospitality"
+            },
+            {
+              "Code": "GD",
+              "Name": "SiteMinder"
+            },
+            {
+              "Code": "GG",
+              "Name": "Grand Hotels NYC"
+            },
+            {
+              "Code": "GM",
+              "Name": "Meritus Hotels and Resorts"
+            },
+            {
+              "Code": "GS",
+              "Name": "GrandStay Hospitality"
+            },
+            {
+              "Code": "GV",
+              "Name": "Gansevoort Hotel Group"
+            },
+            {
+              "Code": "GZ",
+              "Name": "Genares Resrv Svc"
+            },
+            {
+              "Code": "HD",
+              "Name": "Hotelred"
+            },
+            {
+              "Code": "HO",
+              "Name": "HotelREZ Hotels and Resorts"
+            },
+            {
+              "Code": "HR",
+              "Name": "Harrahs Casinos"
+            },
+            {
+              "Code": "IA",
+              "Name": "Corinthia Hotels"
+            },
+            {
+              "Code": "IE",
+              "Name": "Tommie Hotels"
+            },
+            {
+              "Code": "IS",
+              "Name": "Ian Schrager"
+            },
+            {
+              "Code": "IW",
+              "Name": "Hotels and Preference"
+            },
+            {
+              "Code": "JA",
+              "Name": "JA Resorts and Hotels"
+            },
+            {
+              "Code": "JI",
+              "Name": "Jurys Inns"
+            },
+            {
+              "Code": "JJ",
+              "Name": "Jin Jiang Hotels"
+            },
+            {
+              "Code": "JR",
+              "Name": "JR Hotel Group"
+            },
+            {
+              "Code": "JT",
+              "Name": "Jumeirah"
+            },
+            {
+              "Code": "JV",
+              "Name": "Joie De Vivre Hospitality"
+            },
+            {
+              "Code": "KC",
+              "Name": "Kimpton Hotels"
+            },
+            {
+              "Code": "KL",
+              "Name": "Clubhouse Inns"
+            },
+            {
+              "Code": "KO",
+              "Name": "Ksl Resorts"
+            },
+            {
+              "Code": "LB",
+              "Name": "Lebua Hotels and Resorts"
+            },
+            {
+              "Code": "LD",
+              "Name": "Leonardo Hotels"
+            },
+            {
+              "Code": "LE",
+              "Name": "L.E. Hotels"
+            },
+            {
+              "Code": "LO",
+              "Name": "Langham Hotels International"
+            },
+            {
+              "Code": "LT",
+              "Name": "Brazil Hospitality Group"
+            },
+            {
+              "Code": "MG",
+              "Name": "Magnolia Hotels"
+            },
+            {
+              "Code": "MK",
+              "Name": "Moevenpick Hotels And Resorts"
+            },
+            {
+              "Code": "MO",
+              "Name": "Mandarin Oriental Hotels"
+            },
+            {
+              "Code": "MR",
+              "Name": "Morgans Hotel Group"
+            },
+            {
+              "Code": "MY",
+              "Name": "Personality Hotels"
+            },
+            {
+              "Code": "NB",
+              "Name": "Nobu Hotels"
+            },
+            {
+              "Code": "NC",
+              "Name": "Noble House Hotels"
+            },
+            {
+              "Code": "NG",
+              "Name": "Night Hotels"
+            },
+            {
+              "Code": "NU",
+              "Name": "Northwood Hosp"
+            },
+            {
+              "Code": "NW",
+              "Name": "New World Hotels"
+            },
+            {
+              "Code": "NY",
+              "Name": "Denihan Hospitality Group"
+            },
+            {
+              "Code": "OC",
+              "Name": "Okura Hotels And Resorts"
+            },
+            {
+              "Code": "OO",
+              "Name": "One and Only"
+            },
+            {
+              "Code": "OT",
+              "Name": "Oetker Collection"
+            },
+            {
+              "Code": "PA",
+              "Name": "Principal Hayley Hotels"
+            },
+            {
+              "Code": "PG",
+              "Name": "Park Hotel Group"
+            },
+            {
+              "Code": "PN",
+              "Name": "Peninsula  Hotels"
+            },
+            {
+              "Code": "PS",
+              "Name": "Sandman Hotels"
+            },
+            {
+              "Code": "PT",
+              "Name": "Pentahotels"
+            },
+            {
+              "Code": "QU",
+              "Name": "Aqua Htls and Rst"
+            },
+            {
+              "Code": "QV",
+              "Name": "ResortQuest International"
+            },
+            {
+              "Code": "RE",
+              "Name": "Regent International Hotels"
+            },
+            {
+              "Code": "RW",
+              "Name": "Rosewood Hotels"
+            },
+            {
+              "Code": "SF",
+              "Name": "Sutton Place"
+            },
+            {
+              "Code": "SG",
+              "Name": "Shangri-La Hotels"
+            },
+            {
+              "Code": "SK",
+              "Name": "Sixty Hotels"
+            },
+            {
+              "Code": "SN",
+              "Name": "Sonesta Collection"
+            },
+            {
+              "Code": "SV",
+              "Name": "Sarova Hotels"
+            },
+            {
+              "Code": "TD",
+              "Name": "TFE Hotels"
+            },
+            {
+              "Code": "TF",
+              "Name": "Thon Hotels"
+            },
+            {
+              "Code": "TM",
+              "Name": "Thompson Hotels"
+            },
+            {
+              "Code": "TN",
+              "Name": "Time Hotel"
+            },
+            {
+              "Code": "TW",
+              "Name": "Trump Hotel Collection"
+            },
+            {
+              "Code": "US",
+              "Name": "Unscripted Hotels"
+            },
+            {
+              "Code": "VG",
+              "Name": "Viceroy Hotel Group"
+            },
+            {
+              "Code": "VI",
+              "Name": "Vienna International"
+            },
+            {
+              "Code": "VL",
+              "Name": "Virgin Hotels"
+            },
+            {
+              "Code": "WB",
+              "Name": "Relais And Chateaux"
+            },
+            {
+              "Code": "XE",
+              "Name": "City Express Hotels"
+            },
+            {
+              "Code": "YL",
+              "Name": "Yotel"
+            },
+            {
+              "Code": "YX",
+              "Name": "SynXis"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "TEST",
+        "Name": "Test Chain",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "ABC1",
+              "Name": "Amit test Chain11S"
+            },
+            {
+              "Code": "BBC2",
+              "Name": "BBC2 Test Chain"
+            },
+            {
+              "Code": "CBC3",
+              "Name": "Amit test Chain31"
+            },
+            {
+              "Code": "DBC4",
+              "Name": "Amit test Chain41"
+            },
+            {
+              "Code": "EBC5",
+              "Name": "Amit test Chain51"
+            },
+            {
+              "Code": "FBC6",
+              "Name": "Amit test Chain61"
+            },
+            {
+              "Code": "GBC7",
+              "Name": "Amit test Chain71"
+            },
+            {
+              "Code": "HBC8",
+              "Name": "Amit test Chain81"
+            },
+            {
+              "Code": "IBC9",
+              "Name": "Amit test Chain91"
+            },
+            {
+              "Code": "JBC10",
+              "Name": "Amit test Chain101"
+            },
+            {
+              "Code": "KBC11",
+              "Name": "Amit test Chain111"
+            },
+            {
+              "Code": "KD",
+              "Name": "Kirbys Test Chain"
+            },
+            {
+              "Code": "KJ",
+              "Name": "Kens Grand Hotel"
+            },
+            {
+              "Code": "LBC12",
+              "Name": "Amit test Chain121"
+            },
+            {
+              "Code": "MW",
+              "Name": "Moore Reservation"
+            },
+            {
+              "Code": "QA",
+              "Name": "QA - TEST CHAIN"
+            },
+            {
+              "Code": "RNSTST01",
+              "Name": "RNS Test chain 01"
+            },
+            {
+              "Code": "UG",
+              "Name": "UG - TEST CHAIN"
+            },
+            {
+              "Code": "UX",
+              "Name": "UX - TEST CHAIN"
+            },
+            {
+              "Code": "XA",
+              "Name": "XA - TEST CHAIN"
+            },
+            {
+              "Code": "XY",
+              "Name": "XY - TEST CHAIN"
+            },
+            {
+              "Code": "ZL",
+              "Name": "ZL - TEST CHAIN"
+            },
+            {
+              "Code": "ZQ",
+              "Name": "ZQ - TEST CHAIN"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "THISTLE",
+        "Name": "Thistle",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "CH",
+              "Name": "cindy test chain"
+            },
+            {
+              "Code": "TI",
+              "Name": "Thistle and Guoman Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "TRUST",
+        "Name": "Trust International",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AA",
+              "Name": "Americinns"
+            },
+            {
+              "Code": "AJ",
+              "Name": "Amerisuites"
+            },
+            {
+              "Code": "BN",
+              "Name": "Barcelo Hotels"
+            },
+            {
+              "Code": "CB",
+              "Name": "Classic British Hotels"
+            },
+            {
+              "Code": "DD",
+              "Name": "DERAG HOTELS"
+            },
+            {
+              "Code": "DO",
+              "Name": "DorintResorts"
+            },
+            {
+              "Code": "LX",
+              "Name": "Small Luxury Htls of the World"
+            },
+            {
+              "Code": "OB",
+              "Name": "Oberoi Hotels"
+            },
+            {
+              "Code": "RO",
+              "Name": "Rotana Hotels"
+            },
+            {
+              "Code": "SR",
+              "Name": "Steigenberger Hotel Group"
+            },
+            {
+              "Code": "SY",
+              "Name": "Starhotels"
+            },
+            {
+              "Code": "TH",
+              "Name": "Trident Hotels"
+            },
+            {
+              "Code": "TJ",
+              "Name": "Taj Hotels"
+            },
+            {
+              "Code": "VA",
+              "Name": "OneTech Solution"
+            },
+            {
+              "Code": "WK",
+              "Name": "Warwick Hotels"
+            },
+            {
+              "Code": "WW",
+              "Name": "Worldhotels"
+            },
+            {
+              "Code": "YH",
+              "Name": "Booking Services by Trust"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "TRVLTRPR",
+        "Name": "Travel Tripper",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "XT",
+              "Name": "Travel Tripper"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "TST01",
+        "Name": "DESC TST MARKETER",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "TCT01",
+              "Name": "TEST CHAIN 013"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "TVLODGE",
+        "Name": "Travelodge UK",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "TG",
+              "Name": "Travelodge Uk And Europe"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "VANTAGE",
+        "Name": "Vantage Hospitality",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "BV",
+              "Name": "AmericasBestValue"
+            },
+            {
+              "Code": "LP",
+              "Name": "Lexington Collection"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "VILLAGE",
+        "Name": "Village Urban Resorts",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "DV",
+              "Name": "Village Hotels"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "WCOAST",
+        "Name": "Red Lion Brands",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "RL",
+              "Name": "Red Lion Hotels"
+            },
+            {
+              "Code": "WC",
+              "Name": "Westcoast Partners"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "WIZCOM",
+        "Name": "WIZCOM",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "WZ",
+              "Name": "Unknown -- Wz"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "WYNDHAM",
+        "Name": "Wyndham",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "AE",
+              "Name": "Amerihost Inn"
+            },
+            {
+              "Code": "BH",
+              "Name": "Hawthorn Suites by Wyndham"
+            },
+            {
+              "Code": "BU",
+              "Name": "Baymont Inns And Suites"
+            },
+            {
+              "Code": "DI",
+              "Name": "Days Inn"
+            },
+            {
+              "Code": "HJ",
+              "Name": "Howard Johnson"
+            },
+            {
+              "Code": "KG",
+              "Name": "Knights Inn"
+            },
+            {
+              "Code": "MT",
+              "Name": "Microtel Inns and Suites"
+            },
+            {
+              "Code": "OZ",
+              "Name": "Super 8"
+            },
+            {
+              "Code": "PX",
+              "Name": "Wyndham Connections"
+            },
+            {
+              "Code": "RA",
+              "Name": "Ramada Worldwide"
+            },
+            {
+              "Code": "TL",
+              "Name": "Travelodge"
+            },
+            {
+              "Code": "WG",
+              "Name": "Wingate by Wyndham"
+            },
+            {
+              "Code": "WT",
+              "Name": "TRYP by Wyndham"
+            },
+            {
+              "Code": "WY",
+              "Name": "Wyndham Hotels and Resorts"
+            }
+          ]
+        }
+      },
+      {
+        "Code": "XNGLOBAL",
+        "Name": "XN Global Res",
+        "Chains": {
+          "Chain": [
+            {
+              "Code": "QH",
+              "Name": "Qhotels"
+            },
+            {
+              "Code": "XN",
+              "Name": "XN Global Res"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

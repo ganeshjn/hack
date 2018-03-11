@@ -1,0 +1,15 @@
+
+Hotel
+-----
+- enter text in search box
+- classify the text, to find the category of api, i.e. air, hotel, cars, etc
+- check for timestamp, if present, i.e. today, tomorrow, specific date
+- check for source/destination in the query string, if present find the longitude/latitude using API
+- check for longitude/latitude, if no source/destination specified
+- use default lognitude/latitude, if no location info given, i.e., latitude/longitude
+- create basic rquirements/parameters required to call APIs
+- 
+
+
+
+- create user/client specific configs

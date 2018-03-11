@@ -1,0 +1,316 @@
+*,
+*::before,
+*::after {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #555;
+}
+
+.saas-container {
+    position: fixed !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    ackground: url(../images/travel3.jpg) no-repeat center center fixed;
+}
+
+.saas-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.pg-sec {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.sub-sec {
+    height: 100%;
+    width: 100%;
+}
+
+.hdr {
+    display: none;
+}
+.con {
+    top: 0;
+    bottom: 35px;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+body.search-page .hdr {
+    top: 0;
+    display: block;
+    height: 70px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.speech-box,
+.search-box {
+    display: table;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 55px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
+    background-color: #fff;
+    font-size: 1em;
+}
+
+.search-box.focus {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .26), 0 0 0 1px rgba(0, 0, 0, .18);
+}
+.speech-box {
+    height: 150px;
+    box-shadow: 0 0 0;
+}
+
+.speech-box > *,
+.search-box > * {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 15px;
+    font-size: 1.2em;
+}
+
+.peech-box .speech-text,
+.search-box .search-input {
+    width: 100%;
+}
+.speech-box .speech-text {
+    font-size: 2em;
+    color: #777;
+}
+.speech-box .speech-icon {
+    font-size: 4.1em;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    width: 150px;
+    text-align: center;
+}
+
+.search-box .search-speech,
+.search-box .search-btn {
+    border-left: 1px solid #f2f2f2;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.search-box input[type=text] {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font: inherit;
+    color: inherit;
+}
+.search-box input[type=text]:focus {
+    outline: 0;
+}
+.search-box input[type=text]::placeholder {
+    color: #bbb;
+}
+.search-box input[type=text]:-moz-placeholder {
+    color: #bbb;
+}
+.search-box input[type=text]:-ms-placeholder {
+    color: #bbb;
+}
+.search-box input[type=text]:-webkit-placeholder {
+    color: #bbb;
+}
+.search-box .search-speech:hover,
+.search-box .search-btn:hover {
+    color: #fff;
+    background-color: #337ab7;
+}
+.search-speech:active,
+.search-btn:active {
+    box-shadow: 0 0 1px 2px rgba(255, 255, 255, .5) inset;
+}
+
+/* Sec List */
+.sec-list {
+    display: table;
+}
+.sec-list > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* Footer */
+.ftr {
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    height: 35px;
+}
+.ftr .sec-list {
+    height: 100%;
+    width: 100%;
+}
+.ftr .sec-list > * {
+    padding: 0 10px;
+    border-right: 1px solid #e4e4e4;
+}
+.ftr .sec-list .info {
+    width: 100%;
+}
+.ftr .sec-list .lang {
+    border-right: 0;
+    padding: 0;
+}
+.ftr .sec-list .lang select {
+    width: 250px;
+    height: 100%;
+    border: 0;
+    background: transparent;
+}
+.ftr .sec-list .lang select:focus {
+    outline: 0;
+}
+
+/* Speech Search CSS*/
+.speech-search-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 1);
+    display: none;
+}
+.speech-search-wrapper .speech-try-again {
+    color: #aaa;
+}
+.speech-search-wrapper .close {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.speech-search-wrapper .close:active {
+    border: 1px solid #e4e4e4;
+}
+
+
+/* Search page specific CSS */
+body.search-page .con {
+    top: 70px;
+}
+body.search-page .hdr .search-box {
+    height: 45px;
+    margin: 0 20px;
+    font-size: .9em;
+}
+body.search-page .hdr .search-speech,
+body.search-page .hdr .search-btn {
+    padding: 0 10px;
+}
+body.search-page .speech-search-wrapper {
+    height: 100px !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
+    font-size: .8em;
+}
+body.search-page .speech-search-wrapper .speech-box {
+    height: 70px;
+}
+body.search-page .speech-search-wrapper .speech-box .speech-icon {
+    font-size: 2em;
+    width: 70px;
+}
+
+
+
+/* Colors CSS */
+.clr-primary {
+    color: #fff;
+    background-color: #337ab7;
+}
+.clr-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.clr-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.clr-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.clr-error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+
+/* Search result CSS */
+.search-resp-msg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    vertical-align: middle;
+    padding: 10px;
+    display: none;
+}
+.search-resp-msg .text {
+    font-size: 1.1em;
+}
+.search-resp-msg .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 3px;
+}
+.search-resp-msg .close:active {
+    box-shadow: 0 0 1px inset;
+}
+
+.search-resp-list {
+    list-style: none;
+}
+.search-resp-list:after {
+    content: '';
+    display: table;
+}
+.search-resp-list > li {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.search-resp-list > li:nth-child(even) {
+    padding-left: 0;
+}
+.search-resp-list > li .search-resp-list-wrap {
+    box-shadow: 0 0 1px;
+    padding: 20px 10px;
+}
+.search-resp-list > li .search-resp-list-wrap:hover {
+    box-shadow: 0 0 2px;
+}
+
