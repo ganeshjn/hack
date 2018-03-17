@@ -1,11 +1,21 @@
             <div class="sub-sec">
                 <div class="search-box">
                     <div class="search-input">
+                        <form name="f" method="GET" action="/search" autocomplete="off">
                         <% if (typeof searchString == 'object' && searchString) { %>
-                            <input type="text" name="text-to-search" placeholder="search you travel..." value="<%= searchString.q %>"/>
+                            <input type="text" name="tts" placeholder="search you travel..." value="<%= searchString.tts %>" autocomplete="off"/>
+                            <!--
+                            <input type="hidden" name="lat" value="<%= searchString.lat %>">
+                            <input type="hidden" name="log" value="<%= searchString.log %>">
+                            -->
                         <% } else { %>
-                            <input type="text" name="text-to-search" placeholder="search you travel..." value=""/>
+                            <input type="text" name="tts" placeholder="search you travel..." value="" autocomplete="off"/>
+                            <!--
+                            <input type="hidden" name="lat">
+                            <input type="hidden" name="log">
+                            -->
                         <% } %>
+                        </form>
                     </div>
                     <div class="search-speech">
                         <span class="icon-mic"></span>

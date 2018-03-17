@@ -5,16 +5,6 @@ var finalTranscript = '';
 // Speech service flag
 var recognizing = false;
 
-// Add search-box to page content/header
-/*
-if (location.pathname.indexOf('search') != -1) {
-    $('body').addClass('search-page');
-    $('.pg-sec.hdr').append($('#search-template').html());
-} else {
-    $('.text-search-wrapper').append($('#search-template').html());
-}
-*/
-
 // Start Speech Search
 function speechSearch() {
     if (recognizing == true) {
@@ -24,6 +14,22 @@ function speechSearch() {
     finalTranscript = '';
     recognition.start();
 }
+
+/*
+var lat = 0;
+var log = 0;
+// if Naigation API is supported
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+        function(p) {
+            lat = p.coords.latitude;
+            log = p.coords.longitude;
+        },
+        function(err) {
+        }
+    );
+} 
+*/
 
 // If Speech API supported by browser
 if (window.speechRecognition == undefined) {
@@ -74,7 +80,7 @@ if (window.speechRecognition == undefined) {
         } else {
             $('.speech-box .speech-text').text(finalTranscript);
             $('.speech-search-wrapper').hide();
-            $('.search-box').find('input[name=text-to-search]').val(finalTranscript);
+            $('.search-box').find('input[name=tts]').val(finalTranscript);
             callSaaSWithQuery(finalTranscript);
         }
 
@@ -93,48 +99,57 @@ if (window.speechRecognition == undefined) {
     };
 }
 
-
-function callSaaSWithQuery(q, typ) {
-    var d = { q: q};
-    if (typ) {
-        d[typ] = true
+function callSaaSWithQuery(tts, xhr, cb) {
+    if (!xhr) {
+        //$('form[name=f]').find('input[name=lat]').val(lat);
+        //$('form[name=f]').find('input[name=log]').val(log);
+        $('form[name=f]')[0].submit();
+        return;
     }
-    $.ajax({
+    var d = $('form[name=f]').serialize() + '&xhr=1';
+    var reqObj = {
         url: '/search',
-        data: d,
-        success: function(resp) {
-        }
-    });
+        data: d
+    };
+    if (cb) {
+        reqObj.success = cb;
+    }
+    $.ajax(reqObj);
 }
 
-function attachEvents() {
+(function attachEvents() {
+    $('form[name=f]').on('submit', function(e) {
+        e.preventDefault();
+        //this.submit();
+    });
     $('.search-box')
-    .on('focus', '.search-input input[name=text-to-search]', function(e) {
+    .on('focus', '.search-input input[name=tts]', function(e) {
         e.stopPropagation();
         $(this)
         .closest('.search-box')
         .addClass('focus');
+        this.selectionStart = this.selectionEnd = this.value.length;
     })
-    .on('blur', '.search-input input[name=text-to-search]', function(e) {
+    .on('blur', '.search-input input[name=tts]', function(e) {
         e.stopPropagation();
         $(this)
         .closest('.search-box')
         .removeClass('focus');
     })
-    .find('input[name=text-to-search]')
+    .find('input[name=tts]')
     .focus();
 
     $('.search-box')
-    .on('keypress', 'input[name=text-to-search]', function(e) {
-        var q = $(this).val().trim();
-        if (e.keyCode == 13 && q.length) {
-            callSaaSWithQuery(q);
+    .on('keypress', 'input[name=tts]', function(e) {
+        var tts = $(this).val().trim();
+        if (e.keyCode == 13 && tts.length) {
+            callSaaSWithQuery(tts);
         }
     })
     .on('click', '.search-btn', function(e) {
-        var q = $('.search-box input[name=text-to-search]').val().trim();
-        if (q.length) {
-            callSaaSWithQuery(q);
+        var tts = $('.search-box input[name=tts]').val().trim();
+        if (tts.length) {
+            callSaaSWithQuery(tts);
         }
     })
     .on('click', '.search-speech', function(e) {
@@ -156,8 +171,5 @@ function attachEvents() {
     .on('click', '.speech-try-again', function(e) {
         speechSearch();
     });
-}
+})();
 
-$(function() {
-    attachEvents();
-});

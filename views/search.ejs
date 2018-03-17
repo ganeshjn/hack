@@ -18,34 +18,219 @@
                         <span class="icon-cancel-1"></span>
                      </span>
                 </div>
+                <div class="content-notfound hide"><span class="icon-emo-unhappy"></span> Sorry, no data available for:<em class="tts"></em></div>
+                <div class="content-loading hide">
+                    <div class='loader loader3'>
+                      <div>
+                        <div>
+                          <div>
+                            <div>
+                              <div>
+                                <div></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
                 <ul class="search-resp-list">
-                    <% for (var i = 0; i < 10; i++) { %>
-                    <li>
-                        <div class="search-resp-list-wrap">
-                            item-<%= i+1 %>
-                        </div>    
-                    </li>
-                    <% } %>
                 </ul>
             </div>
             <div class="pg-sec ftr">
                 <%- include('partials/ftr', {page: 'search'}); %>
             </div>
+            <div class="details-box">
+                <div class="sec-list details-hdr">
+                    <div class="title"></div>
+                    <div class="close"><span class="icon-cancel-1"></span></div>
+                </div>
+                <div class="details-con">
+                    <div class="content"></div>
+                </div>
+                <div class="details-act">
+                    <div class="sec-list">
+                        <div class="details-btn">Check Availabiliy</div>
+                        <div class="details-btn">Book</div>
+                    </div>
+                </div>
+            </div> 
             <% include partials/speech_box %>
         </div>
+        <% include partials/searched-item %>
         <% include partials/common_scripts %>
         <script>
-        $(function() {
-            var q = $('.search-box input[name=text-to-search]').val().trim();
-            $.ajax({
-                url: '/search',
-                data: { q: q, xhr: true},
-                success: function(resp) {
-                    console.log(resp);
-                },
-                error: function(resp) {
-                }
+        function renderHotelData(tmpl, data) {
+            tmpl = $(tmpl).html();
+            var li = '';
+            data.forEach(function(hotel) {
+                li = tmpl
+                   .replace('{{Hotel}}', hotel.HotelName)
+                   .replace('{{Country}}', hotel.CountryCode)
+                   .replace('{{Latitude}}', hotel.Latitude)
+                   .replace('{{Longitude}}', hotel.Longitude)
+                   .replace('{{Status}}', hotel.Status)
+                   .replace('{{data}}', JSON.stringify(hotel));
+                $(".search-resp-list").append(li);
             });
+        }
+        function renderCarData(tmpl, data) {
+            console.log(tmpl);
+            data = data.OTA_VehAvailRateRS.VehAvailRSCore.VehVendorAvails.VehVendorAvail;
+            tmpl = $(tmpl).html();
+            var li = '';
+            data.forEach(function(car) {
+                li = tmpl
+                     .replace('{{Company}}', car.Vendor.CompanyShortName)
+                     .replace('{{Fare}}', car.VehAvailCore.VehicleCharges.VehicleCharge.TotalCharge.Amount)
+                     .replace('{{CurrencyCode}}', car.VehAvailCore.VehicleCharges.VehicleCharge.TotalCharge.CurrencyCode)
+                     .replace('{{VehicalType}}', car.VehAvailCore.RentalRate.Vehicle.VehType[0])
+                     .replace('{{RatePerDay}}', car.VehAvailCore.VehicleCharges.VehicleCharge.AdditionalDayHour.Day.Rate || 0.00)
+                     .replace('{{RatePerHour}}', car.VehAvailCore.VehicleCharges.VehicleCharge.AdditionalDayHour.Hour.Rate || 0.00)
+                     .replace('{{data}}', JSON.stringify(car));
+                $(".search-resp-list").append(li);
+            });
+        }
+        function renderAirData(typ, tmpl, data) {
+            console.log(tmpl);
+            tmpl = $(tmpl).html();
+            typ = typ.toLowerCase();
+            var li = '';
+            if (typ == 'leadprice') {
+                data.FareInfo.forEach(function(f) {
+                        console.log(f.LowestFare);
+                    if (!f.LowestFare || f.LowestFare == 'N/A') return true;
+                    li = tmpl
+                         .replace('{{Origin}}', data.OriginLocation)
+                         .replace('{{Destination}}', data.DestinationLocation)
+                         .replace('{{CurrencyCode}}', f.CurrencyCode)
+                         .replace('{{DepartureDateTime}}', moment(f.DepartureDateTime).format('YYYY-MMM-DD, HH:mm'))
+                         .replace('{{Fare}}', f.LowestFare.Fare);
+                    $(".search-resp-list").append(li);
+                });
+            } else if (typ == 'destinationfinder') {
+                data.FareInfo.forEach(function(f) {
+                    if (!f.LowestFare) return true;
+                    li = tmpl
+                         .replace('{{Origin}}', data.OriginLocation)
+                         .replace('{{Destination}}', f.DestinationLocation)
+                         .replace('{{CurrencyCode}}', f.CurrencyCode)
+                         .replace('{{DepartureDateTime}}', moment(f.DepartureDateTime).format('YYYY-MMM-DD, HH:mm'))
+                         .replace('{{Fare}}', f.LowestFare.Fare);
+                    $(".search-resp-list").append(li);
+                });
+            } else if (typ == 'flightsto') {
+                data.FareInfo.forEach(function(f) {
+                    if (!f.LowestFare) return true;
+                    console.log(f.CurrencyCode);
+                    li = tmpl
+                         .replace('{{Origin}}', f.OriginLocation)
+                         .replace('{{Destination}}', data.DestinationLocation)
+                         .replace('{{CurrencyCode}}', f.CurrencyCode)
+                         .replace('{{DepartureDateTime}}', moment(f.DepartureDateTime).format('YYYY-MMM-DD, HH:mm'))
+                         .replace('{{Fare}}', f.LowestFare.Fare)
+                         .replace('{{data}}', JSON.stringify(f));
+                    $(".search-resp-list").append(li);
+                });
+            }
+        }
+        function switchLoader(tgl) {
+            if (tgl) {
+                $('.content-loading').addClass('hide');
+            } else {
+                $('.content-loading').removeClass('hide');
+            }
+        }
+        function contentNotfound(msg) {
+            $('.content-notfound').find('.tts').text(msg);
+            $('.content-notfound').show();
+        }
+        function appendData(resp) {
+            switchLoader(1);
+            if (!Object.keys(resp.data).length) {
+                contentNotfound(resp.tts);
+            }
+            if (resp.error) {
+                return;
+            }
+            $(".search-resp-list").empty();
+            switch (resp.type) {
+                case 'air':
+                    resp.subType = resp.subType || 'destinationfinder';
+                    var tmpl = `#tmpl-searched-item-${resp.type}-${resp.subType}`.toLowerCase();
+                    renderAirData(resp.subType, tmpl, resp.data);
+                    break;
+                case 'car':
+                    var tmpl = `#tmpl-searched-item-${resp.type}`.toLowerCase();
+                    renderCarData(tmpl, resp.data);
+                    break;
+                case 'hotel':
+                    var tmpl = `#tmpl-searched-item-${resp.type}`.toLowerCase();
+                    renderHotelData(tmpl, resp.data);
+                    break;
+            }
+        }
+
+        function attachEvents() {
+            $('.search-resp-list')
+            .on('click', '> li.hotels-data', function(e) {
+                var d = JSON.parse($(this).attr('rel'));
+                var tmpl = $('#tmpl-searched-item-hotel-info').html();
+                $('.details-box').show();
+                $('.details-box .details-hdr .title').text(d.HotelName);
+                $('.details-box .details-con .content').text('Fetching hotel info...');
+                $.ajax({
+                    url: '/hotel/' + d.HotelCode,
+                    success: function(resp) {
+                        if (resp.error) {
+                            alert(resp.message);
+                            return;
+                        }
+                        var amenities = '';
+                        resp.data[0]['Amenities']['Amenity'].forEach(function(a) {
+                            amenities += a.Description + '<br>';
+                        });
+                        var cards = '';
+                        resp.data[0]['AcceptedCreditCards']['CreditCard'].forEach(function(c) {
+                            cards += c.content + '<br>';
+                        });
+
+                        var detail = tmpl
+                                     .replace('{{AddressLine}}', resp.data[0]['LocationInfo']['Address']['AddressLine1'])
+                                     .replace('{{City}}', resp.data[0]['LocationInfo']['Address']['CityName'])
+                                     .replace('{{Latitude}}', resp.data[0]['LocationInfo']['Latitude'] || '')
+                                     .replace('{{Longitude}}', resp.data[0]['LocationInfo']['Longitude'] || '')
+                                     .replace('{{PostalCode}}', resp.data[0]['LocationInfo']['Address']['PostalCode'] || '')
+                                     .replace('{{Phone}}', resp.data[0]['LocationInfo']['Contact']['Phone'])
+                                     .replace('{{Fax}}', resp.data[0]['LocationInfo']['Contact']['Fax'])
+                                     .replace('{{Floors}}', resp.data[0]['PropertyInfo']['Floors'])
+                                     .replace('{{Rooms}}', resp.data[0]['PropertyInfo']['Rooms'])
+                                     .replace('{{Airport}}', resp.data[0]['Airports']['Airport'][0]['AirportOrCityDescription'])
+                                     .replace('{{Distance}}', resp.data[0]['Airports']['Airport'][0]['DistanceFromHotel'])
+                                     .replace('{{UOM}}', resp.data[0]['Airports']['Airport'][0]['UOM'])
+                                     .replace('{{Amenities}}', amenities)
+                                     .replace('{{Cards}}', cards)
+
+                        $('.details-box .details-con .content').html(detail);
+                    }
+                });
+            });
+            
+            $('.details-box')
+            .on('click', '.details-hdr .close', function() {
+                $('.details-box').hide();
+            })
+            .on('click', '.details-act .details-btn', function() {
+                alert('Available soon...');
+            });
+        }
+        $(function() {
+            attachEvents();
+            var tts = $('.search-box input[name=tts]').val().trim();
+            if (tts.length) {
+                switchLoader(0);
+                callSaaSWithQuery(tts, true, appendData);
+            }
         });
         </script>
     </body>

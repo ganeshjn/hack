@@ -1,0 +1,171 @@
+<script type="text/template" id="tmpl-searched-item">
+<li rel='{{data}}'>
+    <div class="searched-item-li">
+        <div class="item-hdr">
+        {{title}}
+        </div>
+        <div class="item-desc">
+        {{description}}
+        </div>
+    </div>
+</li>
+</script>
+<script type="text/template" id="tmpl-searched-item-air-leadprice">
+    <li rel='{{data}}' style="width: 33%;">
+        <div class="searched-item-li">
+            <div class="item-hdr clearfix">
+                <span class="left">From: {{Origin}}</span> <span class="right">To: {{Destination}}</span></div>
+            <div class="item-desc clearfix">
+                <p class="clearfix">
+                    <span class="left">Fare:</span>
+                    <span class="right">{{Fare}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Currency:</span>
+                    <span class="right">{{CurrencyCode}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Departure Date:</span>
+                    <span class="right">{{DepartureDateTime}}</span>
+                </p>
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/template" id="tmpl-searched-item-air-destinationfinder">
+    <li rel='{{data}}' style="width: 33%;">
+        <div class="searched-item-li">
+            <div class="item-hdr clearfix">
+                <span class="left">From: {{Origin}}</span> <span class="right">To: {{Destination}}</span></div>
+            <div class="item-desc clearfix">
+                <p class="clearfix">
+                    <span class="left">Fare:</span>
+                    <span class="right">{{Fare}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Currency:</span>
+                    <span class="right">{{CurrencyCode}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Departure Date:</span>
+                    <span class="right">{{DepartureDateTime}}</span>
+                </p>
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/template" id="tmpl-searched-item-air-flightsto">
+    <li rel='{{data}}' style="width: 33%;">
+        <div class="searched-item-li">
+            <div class="item-hdr clearfix">
+                <span class="left">From: {{Origin}}</span> <span class="right">To: {{Destination}}</span></div>
+            <div class="item-desc clearfix">
+                <p class="clearfix">
+                    <span class="left">Fare:</span>
+                    <span class="right">{{Fare}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Currency:</span>
+                    <span class="right">{{CurrencyCode}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Departure Date:</span>
+                    <span class="right">{{DepartureDateTime}}</span>
+                </p>
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/template" id="tmpl-searched-item-car">
+    <li rel='{{data}}' style="width: 33%;">
+        <div class="searched-item-li">
+            <div class="item-hdr clearfix">
+                <span class="left">Company: {{Company}}</span>
+            </div>
+            <div class="item-desc clearfix">
+                <p class="clearfix">
+                    <span class="left">Fare:</span>
+                    <span class="right">{{Fare}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Currency:</span>
+                    <span class="right">{{CurrencyCode}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Type:</span>
+                    <span class="right">{{VehicalType}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Rate/day(extra):</span>
+                    <span class="right">{{RatePerDay}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Rate/hour(extra):</span>
+                    <span class="right">{{RatePerHour}}</span>
+                </p>
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/template" id="tmpl-searched-item-hotel">
+    <li rel='{{data}}' style="width: 50%;" class="hotels-data">
+        <div class="searched-item-li">
+            <div class="item-hdr clearfix">
+                <span class="left">{{Hotel}}</span>
+            </div>
+            <div class="item-desc clearfix">
+                <p class="clearfix">
+                    <span class="left">Country:</span>
+                    <span class="right">{{Country}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Coordinates:</span>
+                    <span class="right">{{Latitude}}/{{Longitude}}</span>
+                </p>
+                <p class="clearfix">
+                    <span class="left">Status:</span>
+                    <span class="right">{{Status}}</span>
+                </p>
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/template" id="tmpl-searched-item-hotel-info">
+    <div class="details-list">
+            <h4>Address:</h4>
+            {{AddressLine}}<br>
+            {{City}}<br>
+            {{PostalCode}}
+            <br><br>
+
+            <h4>Coordinates</h4>
+            Latitude: {{Latitude}} <br>
+            Longitude: {{Longitude}}
+            <br><br>
+
+            <h4>Contact:</h4>
+            Phone: {{Phone}}<br>
+            Fax: {{Fax}}
+            <br><br>
+
+            <h4>Floor:</h4>
+            {{Floors}}
+            <br><br>
+
+            <h4>Rooms:</h4>
+            {{Rooms}} 
+            <br><br>
+
+            <h4>Airport(s):</h4>
+            Airport City: {{Airport}} <br>
+            Distance from hotel: {{Distance}} {{UOM}}
+            <br><br>
+
+            <h4>Amenities:</h4>
+            {{Amenities}}
+            <br><br>
+
+            <h4>Cards:</h4>
+            {{Cards}}
+    </div>
+</script>
