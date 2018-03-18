@@ -20,6 +20,6 @@ module.exports = {
     hotelApiConfig: {
         
     },
-    HTTP_Port: process.env.PORT || 9090,
+    HTTP_PORT: process.env.PORT || 9090,
     HTTPS_PORT: process.env.PORT || 9443,
 }
