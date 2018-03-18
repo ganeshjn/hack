@@ -32,7 +32,7 @@ const httpsServer = https.createServer(credentials, app);
 // Starting server/app
 httpsServer.listen(config.HTTPS_PORT, function(err) {
     if (err) {
-        console.log(err);
+        console.log('Server error: ', err);
         return;
     }
     console.log(`Server(https) running on ${config.HTTPS_PORT}`);
