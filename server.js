@@ -9,8 +9,8 @@ const path = require('path');
 const http = require('http');
 const https = require('https');
 const fs = require('fs');
-const privateKey = fs.readFileSync('/etc/apache2/ssl/apache.key', 'utf-8');
-const certificate = fs.readFileSync('/etc/apache2/ssl/apache.crt', 'utf-8');
+const privateKey = fs.readFileSync('privateKey.key', 'utf-8');
+const certificate = fs.readFileSync('certificate.crt', 'utf-8');
 const credentials = { key: privateKey, cert: certificate };
 
 // Attach body parser
