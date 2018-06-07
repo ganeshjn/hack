@@ -42,7 +42,7 @@ var tmp;
 })();
 
 const API_DOMAIN = 'https://api.test.sabre.com';
-const API_TOKEN = 'T1RLAQJ44T+cgoLS9xEEz35cgDIAPrD7URAcb2DyjGs0nN17bs50/QstAADAe2s+oqpHg+KJVuJJMkX3pp4vNTuAJtig7nx5F0e1Hf+kPvxGFoUIYI5KgMEfeJ40h9GH48hhL/03h88i8eeAx7AgkdDEKtdouHkZS2ygi81lzxYumSsoNlfLSVI4WMIMF75wVpOqw6XRk9blbcUTc/0wtC6QnZ5WoBuhaX2dMD+w/f9a6xn/FKeM/BaBODaojN0zbJb6vLr7WvqWIAWAVbNTESlJGmj57fFG7WMeAVxls/TR1EU+mtC7FMwBuYBf';
+const API_TOKEN = 'T1RLAQKTlcmht1dId6Qdaoo9HHsVJrTfQxBXmXE1FTmRSRj9rjSh2ahjAADAo0fkil3e+hpHyR9vE0Zu3n52EmxtPUrPqkjfd2wYhGWT3sryMv5Qj8gV1E0pcBpxwyNaCdcThNUySpaXd/3FHU2OytEd+Ik5WhlFCWR4XKYeTALC95zvnPLzFUBo32wcwVOp7omuFSCaDSuzwa32pX6kelLjkKgZnXpCKhE9PYZYNOHI/gRAwP+Nt0a2UyzJQbi0dr5xNWfdGIQPJYARcyUD0HomIodWWtpV82bM6EV5NvdP69gIMbqfwvLaFzwB';
 
 function handleAirAPIs(tts, opts) {
     console.log(opts);
